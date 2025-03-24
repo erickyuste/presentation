@@ -5,7 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>Presentation</title>
   </head>
   <body class="w-full h-screen overflow-x-hidden">
@@ -20,28 +26,30 @@
         ></div>
 
         <div
-          class="relative z-10 w-full flex justify-center gap-16 items-center py-6"
+          class="absolute z-10 w-full flex justify-center gap-16 items-center"
         >
           <img src="images/wispp.png" class="w-[20%] h-[10%]" />
           <img src="images/kangaroo.png" class="w-[8%] h-[10%]" />
           <img src="images/scsa.png" class="w-[20%] h-[10%]" />
         </div>
         <div
-          class="relative z-10 w-full flex flex-col justify-center gap-16 items-center py-6 leading-tight"
+          class="relative z-10 w-full h-screen flex flex-col items-center gap-[2rem] justify-center"
         >
-          <h1 class="font-bold text-[6rem] text-white">
+          <h1 class="font-bold text-[4rem] text-white">
             Teacher Led - Open House
           </h1>
-          <h2 class="font-bold text-[5rem] text-red-500">Technology Subject</h2>
-          <h2 class="font-bold text-[4rem] text-blue-500">March 28, 2025</h2>
+          <h2 class="font-bold text-[3.5rem] text-red-500">
+            Technology Subject
+          </h2>
+          <h2 class="font-bold text-[3rem] text-blue-500">March 28, 2025</h2>
         </div>
       </section>
 
       <section
-        class="w-full h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
+        class="w-full h-screen flex flex-col gap-[2rem] items-center justify-center bg-gray-800"
       >
         <h1
-          class="text-[4rem] font-bold text-red-500 my-14"
+          class="w-[80%] text-[3rem] text-center font-bold text-red-500 my-14"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -49,7 +57,7 @@
           Why is it important to learn technology?
         </h1>
         <p
-          class="text-[2rem] font-bold text-gray-300 my-14 w-[80%]"
+          class="text-[1.5rem] font-bold text-gray-300 my-14 w-[80%]"
           data-aos="zoom-in"
           data-aos-delay="1000"
           data-aos-duration="1000"
@@ -63,10 +71,10 @@
         </p>
       </section>
       <section
-        class="w-full h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
+        class="w-full h-screen flex flex-col items-center justify-center gap-[2rem] bg-gray-800"
       >
         <h1
-          class="text-[2rem] font-bold text-gray-300 my-2"
+          class="text-[1.5rem] font-bold text-gray-300 my-2"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -87,10 +95,10 @@
       </section>
 
       <section
-        class="w-full h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
+        class="w-full min-h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
       >
         <h1
-          class="text-[3rem] font-bold text-red-500 my-14"
+          class="w-[80%] text-[3rem] text-center font-bold text-red-500 my-14"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-easing="ease-in-out"
@@ -98,7 +106,7 @@
           Why choose Westbridge International School of Phnom Penh?
         </h1>
         <p
-          class="w-[80%] text-[2rem] font-bold text-gray-300 my-2"
+          class="text-[1.5rem] font-bold text-gray-300 my-14 w-[80%]"
           data-aos="zoom-in"
           data-aos-delay="1000"
           data-aos-duration="1000"
@@ -115,10 +123,10 @@
       </section>
 
       <section
-        class="w-full min-h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
+        class="w-full min-h-[130vh] flex flex-col items-center gap-[5rem] justify-center pt-14 bg-gray-800 mb-[6rem]"
       >
         <h1
-          class="text-[6rem] font-bold text-red-500 my-14"
+          class="text-[5rem] font-bold text-red-500"
           data-aos="zoom-in"
           data-aos-duration="1000"
           data-aos-delay="1000"
@@ -127,7 +135,7 @@
           Programming Tools
         </h1>
         <div
-          class="w-full flex flex-col items-center my-14 z-50"
+          class="w-full flex flex-col items-center z-50"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-delay="1000"
@@ -141,7 +149,7 @@
           </video>
         </div>
         <div
-          class="w-full flex flex-col items-center my-14 z-50"
+          class="w-full flex flex-col items-center z-50"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-anchor-placement="center-center"
@@ -154,7 +162,7 @@
           </video>
         </div>
         <div
-          class="w-full flex flex-col items-center my-14 z-50"
+          class="w-full flex flex-col items-center z-50"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-anchor-placement="center-center"
@@ -167,7 +175,7 @@
           </video>
         </div>
         <div
-          class="w-full flex flex-col items-center my-14 z-50"
+          class="w-full flex flex-col items-center z-50"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-anchor-placement="center-center"
@@ -180,7 +188,7 @@
           </video>
         </div>
         <div
-          class="w-full flex flex-col items-center my-14 z-50"
+          class="w-full flex flex-col items-center z-50"
           data-aos="fade-up"
           data-aos-duration="1000"
           data-aos-anchor-placement="center-center"
@@ -193,18 +201,30 @@
           </video>
         </div>
       </section>
-
       <section
-        class="w-full min-h-screen flex flex-col items-center justify-center py-16 bg-gray-800"
+        class="w-full h-[70vh] flex flex-col items-center gap-[5rem] justify-center pt-14 bg-gray-800"
       >
         <h1
-          class="text-[6rem] font-bold text-red-500 my-14"
+          class="text-[5rem] font-bold text-red-500"
           data-aos="zoom-in"
           data-aos-delay="50"
           data-aos-anchor-placement="center-center"
         >
           Student Portfolio
         </h1>
+        <p
+          class="text-[1.5rem] font-bold text-gray-300"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-anchor-placement="center-center"
+        >
+          Scan code to view portfolio
+        </p>
+      </section>
+
+      <section
+        class="w-full min-h-[130vh] flex flex-col items-center gap-[5rem] justify-center pt-14 bg-gray-800"
+      >
         <img
           src="images/1-Sovannmany.png"
           class="w-[70%] rounded-2xl my-12 z-50"
