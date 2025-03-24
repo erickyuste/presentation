@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Presentation</title>
+  </head>
+  <body class="w-full h-screen overflow-x-hidden">
+    <main class="relative h-full">
+      <section class="w-full min-h-screen relative">
+        <div
+          class="w-full h-full bg-cover bg-center absolute top-0 left-0 opacity-40"
+          style="background-image: url(/images/background.jpg)"
+        ></div>
+        <div
+          class="absolute bottom-0 left-0 w-full h-screen bg-gradient-to-t from-gray-800 to-transparent opacity-100"
+        ></div>
+
+        <div
+          class="relative z-10 w-full flex justify-center gap-16 items-center py-6"
+        >
+          <img src="images/wispp.png" class="w-[20%] h-[10%]" />
+          <img src="images/kangaroo.png" class="w-[8%] h-[10%]" />
+          <img src="images/scsa.png" class="w-[20%] h-[10%]" />
+        </div>
+        <div
+          class="relative z-10 w-full flex flex-col justify-center gap-16 items-center py-6 leading-tight"
+        >
+          <h1 class="font-bold text-[6rem] text-white">
+            Teacher Led - Open House
+          </h1>
+          <h2 class="font-bold text-[5rem] text-red-500">Technology Subject</h2>
+          <h2 class="font-bold text-[4rem] text-blue-500">March 28, 2025</h2>
+        </div>
+      </section>
+
+      <section
+        class="w-full h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
+      >
+        <h1
+          class="text-[4rem] font-bold text-gray-300 my-14"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          Why is it important to learn technology?
+        </h1>
+        <p
+          class="text-[2rem] font-bold text-gray-300 my-14 w-[80%]"
+          data-aos="zoom-in"
+          data-aos-delay="1000"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          Preparing for the Future: Our world is increasingly driven by
+          technology. Understanding it is essential for future careers. Many
+          jobs, even those not traditionally considered "tech jobs," require
+          digital literacy and technological skills. Learning about technology
+          helps students adapt to the ever-evolving digital landscape.
+        </p>
+      </section>
+      <section
+        class="w-full h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
+      >
+        <h1
+          class="text-[2rem] font-bold text-gray-300 my-2"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-easing="ease-in-out"
+        >
+          This is Forbes' prediction on the job market in the next 5 to 10
+          years.
+        </h1>
+        <div
+          class="flex justify-evenly items-center w-full my-[2rem]"
+          data-aos="zoom-in"
+          data-aos-offset="300"
+          data-aos-delay="1000"
+          data-aos-easing="ease-in-sine"
+        >
+          <img src="images/forbes.png" class="h-[50%] rounded-[50%]" />
+          <img src="images/jobs.png" class="h-[90%] rounded-2xl" />
+        </div>
+      </section>
+
+      <section
+        class="w-full h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
+      >
+        <h1
+          class="text-[3rem] font-bold text-gray-300 my-14"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          data-aos-easing="ease-in-out"
+        >
+          Why choose Westbridge International School of Phnom Penh?
+        </h1>
+        <p
+          class="w-[80%] text-[2rem] font-bold text-gray-300 my-2"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          data-aos-easing="ease-in-out"
+        >
+          Westbridge International School of Phnom Penh is committed to
+          fostering globally competent students. Our curriculum is designed to
+          equip learners with in-demand skills, emphasizing fluency in
+          international languages and developing practical abilities that align
+          with the evolving global job market. We prepare students to be
+          competitive on a global scale, ensuring they are ready to thrive in an
+          interconnected world.
+        </p>
+      </section>
+
+      <section
+        class="w-full min-h-screen flex flex-col items-center justify-center pt-14 bg-gray-800"
+      >
+        <h1
+          class="text-[6rem] font-bold text-gray-300 my-14"
+          data-aos="zoom-in"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          data-aos-easing="ease-in-out"
+        >
+          Programming Tools
+        </h1>
+        <div
+          class="w-full flex flex-col items-center my-14 z-50"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-delay="1000"
+          data-aos-easing="ease-in-out"
+        >
+          <h1 class="text-4xl font-bold text-gray-300 my-6">
+            Scratch Programming
+          </h1>
+          <video controls class="w-[60%] rounded-lg" autoplay loop muted>
+            <source src="images/scratch.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div
+          class="w-full flex flex-col items-center my-14 z-50"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="center-center"
+        >
+          <h1 class="text-4xl font-bold text-gray-300 my-6">
+            Rodocodo Programming
+          </h1>
+          <video controls class="w-[60%] rounded-lg" autoplay loop muted>
+            <source src="images/rodocodo.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div
+          class="w-full flex flex-col items-center my-14 z-50"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="center-center"
+        >
+          <h1 class="text-4xl font-bold text-gray-300 my-6">
+            iRobot Programming
+          </h1>
+          <video controls class="w-[60%] rounded-lg" autoplay loop muted>
+            <source src="images/irobot.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div
+          class="w-full flex flex-col items-center my-14 z-50"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="center-center"
+        >
+          <h1 class="text-4xl font-bold text-gray-300 my-6">
+            Hypertext Markup Language
+          </h1>
+          <video controls class="w-[60%] rounded-lg" autoplay loop muted>
+            <source src="images/html.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div
+          class="w-full flex flex-col items-center my-14 z-50"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+          data-aos-anchor-placement="center-center"
+        >
+          <h1 class="text-4xl font-bold text-gray-300 my-6">
+            Cascading Style Sheet
+          </h1>
+          <video controls class="w-[60%] rounded-lg" autoplay loop muted>
+            <source src="images/css.mp4" type="video/mp4" />
+          </video>
+        </div>
+      </section>
+
+      <section
+        class="w-full min-h-screen flex flex-col items-center justify-center py-16 bg-gray-800"
+      >
+        <h1
+          class="text-[6rem] font-bold text-gray-300 my-14"
+          data-aos="zoom-in"
+          data-aos-delay="50"
+          data-aos-anchor-placement="center-center"
+        >
+          Student Portfolio
+        </h1>
+        <img
+          src="images/1-Sovannmany.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-delay="150"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/2-Meijing.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/3-ALharem.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/4-Pichsakna.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/5-Monisokanchana.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/6-Sethika.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/7-Lina.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/8-Wenfu.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/9-Rinyalice.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/10-FengEr.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/11-Sonita.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/12-VInika.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/13-Richard.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/14-Angelica.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/15-Sunny.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/16-Leanheng.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/17-Techmeng.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/18-Nikaserema.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/19-Sovannmonywadth.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/20-Chandaraboth.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/21-Sovanika.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/22-Daravit.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/23-rothanalidy.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/24-Aliza.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/25-Sokmutta.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/26-Panhasak.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/27-Lilly.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/28-Naroth.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/29-Nigan.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/30-Maryfitt.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/31-Doungleaksmy.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/32-Morokot.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/33-Rithy.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/34-Soramuny.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <img
+          src="images/35-Sonisa.png"
+          class="w-[70%] rounded-2xl my-12 z-50"
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+      </section>
+
+      <section class="w-full h-screen flex bg-gray-800">
+        <spline-viewer
+          class="absolute right-[-20%] w-[100%]"
+          url="https://prod.spline.design/eMgpzoslXgyuofQI/scene.splinecode"
+        ></spline-viewer>
+        <img
+          src="images/thankyou.png"
+          class="w-[30%] rounded-2xl absolute left-120"
+          data-aos="zoom-in"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script
+      type="module"
+      src="https://unpkg.com/@splinetool/viewer@1.9.80/build/spline-viewer.js"
+    ></script>
+  </body>
+</html>
